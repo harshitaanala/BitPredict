@@ -33,10 +33,11 @@ def predict_prices(days):
 # Function to fetch latest Bitcoin news
 def fetch_bitcoin_news():
     url = "https://newsapi.org/v2/everything"
+    api_key = st.secrets["general"]["api_key"]
     params = {
         "q": "Bitcoin",
         "sortBy": "publishedAt",
-        "apiKey": "cca1c767e31b4398b00a85e9469150",  # Replace with your API key
+        "apiKey": api_key,  # Replace with your API key
         "language": "en",
         "pageSize": 5
     }
