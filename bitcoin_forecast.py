@@ -36,7 +36,7 @@ def fetch_bitcoin_news():
     params = {
         "q": "Bitcoin",
         "sortBy": "publishedAt",
-        "apiKey": "cca1c767e31b4398b00a85e9469150d7",  # Replace with your API key
+        "apiKey": "cca1c767e31b4398b00a85e9469150",  # Replace with your API key
         "language": "en",
         "pageSize": 5
     }
