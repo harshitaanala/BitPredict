@@ -105,7 +105,7 @@ export_button.pack(pady=10)
 # News & Sentiment Analysis (Placeholder)
 def fetch_news():
     # TODO: Replace with actual API key and logic
-    api_key = "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"  # Replace with your API key
+    api_key = "sk-proj-OSdY5gcdzh_A"  # Replace with your API key
     url = f"https://newsapi.org/v2/everything?q=bitcoin&apiKey={api_key}"
     
     try:
