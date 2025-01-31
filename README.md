@@ -31,12 +31,13 @@ Check out the live demo of the app: https://bitpredict-gswhhtnszuhjlwburavklg.st
 Ensure you have Python 3.x installed. You can check by running:
 
 '''python
-python --version
 '''
 
 ### Clone the Repository
 
-'''git clone https://github.com/harshitaanala/BitPredict.git'''
+'''
+git clone https://github.com/harshitaanala/BitPredict.git
+'''
 
 ### Install Dependencies
 Run the following command to install required Python libraries:
