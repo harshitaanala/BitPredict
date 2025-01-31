@@ -30,7 +30,8 @@ Check out the live demo of the app: https://bitpredict-gswhhtnszuhjlwburavklg.st
 ### Prerequisites 
 Ensure you have Python 3.x installed. You can check by running:
 
-'''python --version
+'''python
+python --version
 '''
 
 ### Clone the Repository
